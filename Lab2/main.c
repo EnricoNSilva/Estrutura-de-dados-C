@@ -139,6 +139,8 @@ int main(void)
     {
         dequeue(queue);
     }
+
+    free(queue);
     Sleep(999999);
     return 0;
 }

@@ -253,5 +253,6 @@ int main(void)
         imprimir_decrescente(lista);
     }
     Sleep(99999999);
+    liberar_lista(lista);
     return 0;
 }
