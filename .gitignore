@@ -1,0 +1,13 @@
+# Ignorar executáveis do Windows
+*.exe
+
+# Ignorar binários do Linux/Mac
+*.out
+*.o
+
+# Ignorar pastas de build e debug do VS Code
+build/
+.vscode/
+
+# Ignorar arquivos de log de erros
+*.log
